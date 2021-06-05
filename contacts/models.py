@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Create your models here.
 
-class Contract(models.Model):
+class Contact(models.Model):
     listing = models.CharField(max_length=200)
     listing_id = models.IntegerField()
     name = models.CharField(max_length=200)
